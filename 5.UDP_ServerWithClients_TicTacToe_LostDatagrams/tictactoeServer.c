@@ -33,7 +33,7 @@ Assignment: Assignment / Lab 5 (Server Side - Player 1)
 #define CONTINUEGAME 1
 #define GAMEOVER 2
 #define TIMEOUT 30
-#define MAXGAMES 10
+#define MAXGAMES 100
 #define BUFFERLENGTH 40
 
 struct info {
