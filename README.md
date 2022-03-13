@@ -3,7 +3,7 @@ A collection of Computer Networking Projects utilizing either a TCP or UDP conne
 
 ### ----------- Team Members -----------
     smebellis   -   Ryan Ellis
-    Xiao-Lii    -   Lee Phonthongsy
+    Xiao-Lii    -   Lee P.
     rinv12      -   Loureen(Rin) Viloria
 
 ## Project 1: Read & Write a File to Send Over Network(TCP)
@@ -13,25 +13,25 @@ Afterwards, the server will confirm the file name and how many bytes were actual
 The client should successfully receive this and will print confirmation of the file size received by the server. 
 ### ----------- Project Tasks -----------
     smebellis -  Ryan Ellis      - Created the server
-    Xiao-Lii  -  Lee Phonthongsy - Created the client
+    Xiao-Lii  -  Lee P.          - Created the client
 
 ## Project 2: TicTacToe TCP Connection (Server-Side)
 A server and client will connect with each other through TCP to play a game of tictactoe. This tictactoe code will be running as the server and player 1.
 ### ----------- Project Tasks -----------
     smebellis -  Ryan Ellis      - Created the server
-    Xiao-Lii  -  Lee Phonthongsy - Created the client
+    Xiao-Lii  -  Lee P.          - Created the client
 
 ## Project 3: TicTacToe UDP Connection (Server-Side)
 A server and client will connect with each other through UDP to play a game of tictactoe. This tictactoe code will be running as the server and player 1. The server and client will need to be running the same VERSION # to play a game of tictactoe w/ each other.
 ### ----------- Project Tasks -----------
     smebellis -  Ryan Ellis      - Created the server
-    Xiao-Lii  -  Lee Phonthongsy - Created the client
+    Xiao-Lii  -  Lee P.          - Created the client
 
 ## Project 4: TicTacToe UDP Connection - Multiple Clients(Server-Side Single Thread)
 A server and client will connect with each other through a UDP connection, to play a game of tictactoe. This tictactoe code will be running as the server / player 1. For a tictactoe game to start, the server must be initiated first and will wait for a 2-byte datagram from the client with the game version(hex format) in the 1st index and the command(hex format) in the 2nd index. The server will send back a 4-byte datagram consisting of the version #, command #, move, and game ID #. Moving forward, all datagrams will be this 4-byte datagram format.
 ### ----------- Project Tasks -----------
     smebellis -  Ryan Ellis      - Created the client
-    Xiao-Lii  -  Lee Phonthongsy - Created the server
+    Xiao-Lii  -  Lee P.          - Created the server
 
 ## Project 5: TicTacToe UDP Connection - Multiple Clients(Server-Side Single Thread) - Lost/Dup Packets
 A server and client program will connect remotely with each other through a UDP connection, to play a game of tictactoe. This tictactoe code will be running as the server / player 1. For a tictactoe game to start, the server must be initiated first and will wait for a 2-byte datagram from the client with the game version(hex format) in the 1st index and the command(hex format) in the 2nd index. The server will send back a 5-byte datagram consisting of the version #, command #, move, game ID #, and sequence #.
@@ -40,5 +40,5 @@ The sequence # will be utilized for keeping track of lost or duplicate packets. 
 
 ### ----------- Project Tasks -----------
     smebellis -  Ryan Ellis      - Created the client
-    Xiao-Lii  -  Lee Phonthongsy - Created a server
+    Xiao-Lii  -  Lee P.          - Created a server
     rinv12    -  Rin Viloria     - Created a server 
